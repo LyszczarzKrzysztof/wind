@@ -10,26 +10,29 @@ import java.awt.event.ActionListener;
 import java.util.Date;
 
 
-public class Butt extends JButton implements ActionListener {
+public class Butt extends JButton {
 
 
 
     public Butt(){
 
+
         setBackground(Color.CYAN);
         setForeground(Color.RED);
-        setCursor(Cursor.getPredefinedCursor(1));
-        setBounds(500-150,400-150,300,200);
+        setCursor(Cursor.getPredefinedCursor(12));
+        setBounds(500-150,400-250,300,200);
         //addActionListener(this);
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
+//    @Override
+//    public void actionPerformed(ActionEvent e) {
+//
+//        Butt whichButton = (Butt) e.getSource();
+//
+//        if(whichButton.getName().equals("bPodajDate")) {
+//            System.out.println(new Date());
+//        }
+//    }
 
-        Butt whichButton = (Butt) e.getSource();
 
-        if(whichButton.getName().equals("bPodajDate")) {
-            System.out.println(new Date());
-        }
-    }
 }

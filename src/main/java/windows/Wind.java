@@ -14,7 +14,7 @@ public class Wind extends JFrame implements ActionListener{
     public Wind(){
         setLayout(null);  // jak sie tego nie da to wypelnia cale okno np.: przyciskiem
         setVisible(true);
-        setSize(1000,800);
+        setSize(1000,900);
     }
 
 
